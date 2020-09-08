@@ -37,11 +37,11 @@ function update() {
 	sleep 0.025
 	cd modules
 	echo -e "$cyan Updating Credit Card Bin Checker $red[$green✔$red]$nc"
-	curl "https://raw.githubusercontent.com/TunisianEagles/quasar/master/packs/binchecker.py" --output binchecker.py >/dev/null 2>&1
+	curl "https://raw.githubusercontent.com/krishpranav/infogathe/master/modules/creditbin.py" --output creditbin.py >/dev/null 2>&1
 	chmod +x creditbin.py
 	sleep 0.025
 	echo -e "$cyan Updating Phone Number Validator $red[$green✔$red]$nc"
-	curl "https://raw.githubusercontent.com/TunisianEagles/quasar/master/packs/phone.sh" --output phone.sh >/dev/null 2>&1
+	curl "https://raw.githubusercontent.com/krishpranav/infogathe/master/modules/binchecker.py" --output phone.sh >/dev/null 2>&1
 	chmod +x phone.sh
 	cd ..
 	sleep 0.025
